@@ -28,6 +28,5 @@ public class Main {
         String reverseFraza = new String(charFrazy);
         System.out.println(reverseFraza);
         System.out.println(fraza);
-        System.out.println(hello);
     }
 }
