@@ -7,7 +7,6 @@ public class Main {
         int start = 0;
         int end = fraza.length() - 1;
         char[] charFrazy = fraza.toCharArray();
-        String hello = "Zdarova";
         while (start < end) {    // <--здесь помогла нейронка у меня было  for (char c : charFrazy)
             if (!Character.isLetter(charFrazy[start])) {
                 start++;
